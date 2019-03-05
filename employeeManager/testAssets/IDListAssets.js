@@ -1,0 +1,22 @@
+module.exports = [
+{Employee: '@employee1', employeeNumber: '@employee1', IDSelector: '@ID', ExpectedID: 'ID: 1'},
+{Employee: '@employee2', employeeNumber: '@employee2', IDSelector: '@ID', ExpectedID: 'ID: 2'},
+{Employee: '@employee3', employeeNumber: '@employee3', IDSelector: '@ID', ExpectedID: 'ID: 3'},
+{Employee: '@employee4', employeeNumber: '@employee4', IDSelector: '@ID', ExpectedID: 'ID: 4'},
+{Employee: '@employee5', employeeNumber: '@employee5', IDSelector: '@ID', ExpectedID: 'ID: 5'},
+{Employee: '@employee6', employeeNumber: '@employee6', IDSelector: '@ID', ExpectedID: 'ID: 6'},
+{Employee: '@employee7', employeeNumber: '@employee7', IDSelector: '@ID', ExpectedID: 'ID: 7'},
+{Employee: '@employee8', employeeNumber: '@employee8', IDSelector: '@ID', ExpectedID: 'ID: 8'},
+{Employee: '@employee9', employeeNumber: '@employee9', IDSelector: '@ID', ExpectedID: 'ID: 9'},
+{Employee: '@employee10', employeeNumber: '@employee10', IDSelector: '@ID', ExpectedID: 'ID: 10'},
+{Employee: '@addEmployee', employeeNumber: '@employee11', IDSelector: '@ID', ExpectedID: 'ID: 11'},
+{Employee: '@addEmployee', employeeNumber: '@employee12', IDSelector: '@ID', ExpectedID: 'ID: 12'},
+{Employee: '@addEmployee', employeeNumber: '@employee13', IDSelector: '@ID', ExpectedID: 'ID: 13'},
+{Employee: '@addEmployee', employeeNumber: '@employee14', IDSelector: '@ID', ExpectedID: 'ID: 14'},
+{Employee: '@addEmployee', employeeNumber: '@employee15', IDSelector: '@ID', ExpectedID: 'ID: 15'},
+{Employee: '@addEmployee', employeeNumber: '@employee16', IDSelector: '@ID', ExpectedID: 'ID: 16'},
+{Employee: '@addEmployee', employeeNumber: '@employee17', IDSelector: '@ID', ExpectedID: 'ID: 17'},
+{Employee: '@addEmployee', employeeNumber: '@employee18', IDSelector: '@ID', ExpectedID: 'ID: 18'},
+{Employee: '@addEmployee', employeeNumber: '@employee19', IDSelector: '@ID', ExpectedID: 'ID: 19'},
+{Employee: '@addEmployee', employeeNumber: '@employee20', IDSelector: '@ID', ExpectedID: 'ID: 20'}
+]

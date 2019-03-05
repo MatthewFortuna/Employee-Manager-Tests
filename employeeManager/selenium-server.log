@@ -1,0 +1,45 @@
+20:04:55.864 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+20:04:56.005 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4445
+2019-02-26 20:04:56.083:INFO::main: Logging initialized @666ms to org.seleniumhq.jetty9.util.log.StdErrLog
+20:04:56.525 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+20:04:56.668 ERROR [BaseServer.start] - Port 4445 is busy, please choose a free port and specify it using -port option
+Exception in thread "main" java.lang.RuntimeException: java.net.BindException: Address already in use: bind
+	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:221)
+	at org.openqa.selenium.remote.server.SeleniumServer.boot(SeleniumServer.java:131)
+	at org.openqa.grid.selenium.GridLauncherV3.lambda$buildLaunchers$3(GridLauncherV3.java:249)
+	at org.openqa.grid.selenium.GridLauncherV3.lambda$launch$0(GridLauncherV3.java:86)
+	at java.util.Optional.map(Unknown Source)
+	at org.openqa.grid.selenium.GridLauncherV3.launch(GridLauncherV3.java:86)
+	at org.openqa.grid.selenium.GridLauncherV3.main(GridLauncherV3.java:70)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.seleniumhq.jetty9.server.ServerConnector.openAcceptChannel(ServerConnector.java:339)
+	at org.seleniumhq.jetty9.server.ServerConnector.open(ServerConnector.java:307)
+	at org.seleniumhq.jetty9.server.AbstractNetworkConnector.doStart(AbstractNetworkConnector.java:80)
+	at org.seleniumhq.jetty9.server.ServerConnector.doStart(ServerConnector.java:235)
+	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.seleniumhq.jetty9.server.Server.doStart(Server.java:395)
+	at org.seleniumhq.jetty9.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:68)
+	at org.openqa.selenium.grid.server.BaseServer.start(BaseServer.java:202)
+	... 6 more
+03197	Marionette	INFO	Listening on port 50582
+20:05:03.517 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+20:05:03.553 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 61ad5dad-3c74-47da-9d2b-62e5e2d27172 (org.openqa.selenium.firefox.GeckoDriverService)
+JavaScript error: https://devmountain-qa.github.io/employee-manager/1.2_Version/static/js/main.145d790d.js, line 3: TypeError: this.state.originalEmployee is null
+20:05:13.461 INFO [ActiveSessions$1.onStop] - Removing session 7a5d5e9bde68a6d618454cc8ac271021 (org.openqa.selenium.chrome.ChromeDriverService)
+1551236721838	Marionette	INFO	Stopped listening on port 50582
+[Parent 4900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Parent 4900, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 332
+[Child 9824, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 7680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+20:05:22.987 INFO [ActiveSessions$1.onStop] - Removing session 61ad5dad-3c74-47da-9d2b-62e5e2d27172 (org.openqa.selenium.firefox.GeckoDriverService)
